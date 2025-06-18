@@ -1,115 +1,65 @@
-# Google Data Analytics Capstone Case Study: Cyclistic Bike-Share
+# Cyclistic Bike-Share Case Study (Google Data Analytics Capstone)
 
-## Introduction
-In this project, I take on the role of a junior data analyst for Cyclistic, a fictional bike-share company in Chicago. The goal is to analyze rider data and provide actionable insights to help Cyclistic attract more riders and convert casual users into annual members.
-
-Throughout the case study, I follow the six steps of the data analysis process:
-1. Ask: Define the business problem and key questions.
-2. Prepare: Collect and review the relevant data.
-3. Process: Clean and organize the data for analysis.
-4. Analyze: Explore the data to identify trends and patterns.
-5. Share: Visualize and communicate findings.
-6. Act: Make recommendations based on the analysis.
-
-This case study simulates real-world tasks and collaboration within a marketing analytics team. It includes guiding questions and key tasks to ensure a structured approach. The final deliverable is a portfolio-ready project that demonstrates my ability to apply data analysis skills to solve business problems - an excellent addition to showcase to potential employers.
-
-All project materials, including data cleaning steps, analysis, visualizations, and recommendations, are documented in this repository.
-
-## Table of Contents
-- [Business Task](#business-task)
-- [Data Sources](#data-sources)
-- [Data Analysis Process](#data-analysis-process)
-    - [1. Ask](#1-ask)
-    - [2. Prepare](#2-prepare)
-    - [3. Process](#3-process)
-    - [4. Analyze](#4-analyze)
-    - [5. Share](#5-share)
-    - [6. Act](#6-act)
-- [Key Findings](#key-findings)
-- [Recommendations](#recommendations)
-- [Tools Used](#tools-used)
-- [Project Structure](#project-structure)
-
+## Overview
+This repository documents my independent project for the Google Data Analytics Capstone on Coursera. The analysis is based on the Cyclistic bike-share case study, which uses real-world data from a fictional bike-share company in Chicago. My goal is to answer three business questions using the data analysis process.
 ---
 
-## Business Task
-Cyclistic’s marketing team wants to better understand how annual members and casual riders use their bike-share service. The main goal is to identify differences in usage patterns and develop actionable recommendations to convert casual riders into annual members.
-
-**Key Questions:**  
+## Business Questions
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships?
 3. How can Cyclistic use digital media to influence casual riders to become members?
-
 ---
 
-## Data Sources
-- [Cyclistic Bike-Share Data](https://divvy-tripdata.s3.amazonaws.com/index.html) (12 months of historical trip data in CSV format)
-- Data columns include: `ride_id`, `rideable_type`, `started_at`, `ended_at`, `start_station_name`, `end_station_name`, `member_casual`, etc.
-
+## Data Source
+- Publicly available trip data provided for the Google Data Analytics Capstone (CSV format, 12 months).
+- Key columns: `ride_id`, `rideable_type`, `started_at`, `ended_at`, `start_station_name`, `end_station_name`, `member_casual`, etc.
 ---
 
-## Data Analysis Process
+## Analysis Process
 ### 1. Ask
-- Defined the three business questions above in collaboration with the Cyclistic marketing team.
+- Defined the business questions above, based on the case study instructions.
 
 ### 2. Prepare
-- Downloaded and reviewed 12 months of trip data.
-- Assessed data quality, structure, and relevance for the analysis.
+- Downloaded and reviewed the Cyclistic bike-share trip data.
+- Checked the data for completeness and format issues.
 
 ### 3. Process
 - Cleaned the data by removing duplicates and rows with missing values.
-- Standardized date and member type formats.
+- Standardized date and member type columns.
 - Calculated ride duration and extracted day of week for each trip.
 
 ### 4. Analyze
-- Used pivot tables and charts to compare ride frequency, duration, and timing by user type.
-- Identified behavioral trends and patterns.
-- Researched potential motivators for membership.
-- Explored digital marketing strategies relevant to Cyclistic’s goals.
+- Used spreadsheet tools (Excel/Google Sheets) to summarize and compare ride patterns by user type.
+- Explored ride counts, average durations, and usage by day of week and station.
 
 ### 5. Share
-- Created visualizations (bar charts, line graphs, pie charts) to illustrate findings.
-- Summarized insights and recommendations in this README.
+- Created charts and tables to visualize differences in usage.
+- Documented findings and included visualizations in this repository.
 
 ### 6. Act
-- Developed actionable recommendations for Cyclistic’s marketing team, focusing on digital media engagement.
-
+- Summarized insights and provided recommendations related to the three business questions.
 ---
 
-## Findings & Answers
+## Findings
+### 1. How do annual members and casual riders use Cyclistic bikes differently?
+- The data shows differences in ride frequency, duration, and timing between annual members and casual riders.
+- (Insert your actual findings here, such as: "Annual members tend to take shorter, more frequent rides on weekdays, while casual riders take longer rides, often on weekends.")
 
-### 1. Usage Patterns
+### 2. Why would casual riders buy Cyclistic annual memberships?
+- Based on the data and case study context, potential reasons include cost savings for frequent riders, convenience, and possible member benefits.
+- (Insert your analysis here, such as: "Casual riders who ride often could save money with a membership. Highlighting these savings could encourage conversion.")
 
-**How do annual members and casual riders use Cyclistic bikes differently?**
-- **Annual members** typically use bikes for short, frequent trips during weekdays, suggesting commuting or routine travel.
-- **Casual riders** are more likely to take longer rides on weekends and holidays, indicating recreational or leisure usage.
-- Certain stations and times are more popular with casual riders, highlighting opportunities for targeted outreach.
-
-### 2. Motivations for Membership
-**Why would casual riders buy Cyclistic annual memberships?**
-- **Cost savings:** Frequent riders can save money with a membership versus paying per ride.
-- **Convenience:** Members enjoy streamlined access and exclusive perks.
-- **Promotions:** Limited-time discounts or bundled offers can incentivize sign-ups.
-- **Personalization:** Highlighting how membership fits individual usage patterns (e.g., for weekend explorers or daily commuters).
-
-### 3. Digital Media Strategies
-**How can Cyclistic use digital media to influence casual riders to become members?**
-- **Targeted Ads:** Use social media and search ads focused on popular casual rider locations and times.
-- **Personalized Emails:** Send follow-up emails to casual riders with personalized usage stats and membership offers.
-- **Content Marketing:** Share stories, tips, and benefits of membership on the Cyclistic blog and social platforms.
-- **Referral Programs:** Encourage current members to invite friends with digital referral bonuses.
-- **App Notifications:** Use in-app messages to promote membership benefits right after a casual ride.
-
+### 3. How can Cyclistic use digital media to influence casual riders to become members?
+- Digital media strategies could include targeted emails, app notifications, and social media campaigns focused on the benefits of membership.
+- (Insert your ideas here, such as: "Sending personalized emails to casual riders after a certain number of rides, or promoting membership benefits on social media.")
 ---
 
 ## Tools Used
-- Microsoft Excel / Google Sheets (data cleaning, analysis, visualization)
-- Tableau Public / Google Data Studio (optional, for advanced visualizations)
-- Markdown (for documentation)
-
+- Excel or Google Sheets for data cleaning, analysis, and visualization.
+- Markdown for documentation.
 ---
 
-## Project Structure
+## Repository Structure
 ```
 Cyclistic-Case-Study/
 │
@@ -118,23 +68,13 @@ Cyclistic-Case-Study/
 ├── visuals/
 │   └── (Charts and graphs)
 ├── README.md
-└── Cyclistic_Case_Study_Summary.pdf (optional)
 ```
-
 ---
 
-## How to Use This Repository
-1. Review the data in the `/data` folder.
-2. Explore the analysis and visuals in the `/visuals` folder.
-3. Read this README for a summary of the process, findings, and recommendations.
-4. Use or adapt this case study as a portfolio piece for your own job search.
+## Notes
+- This project was completed independently as part of the Google Data Analytics Capstone on Coursera.
+- All analysis and recommendations are based on the provided dataset and case study instructions.
+- No proprietary or confidential information is included.
 ---
 
-## Acknowledgments
-- Google Data Analytics Professional Certificate
-- Cyclistic (Fictional Company)
-- Divvy Bike-Share (Real-world data provider)
-
----
-
-**This case study demonstrates my ability to apply the data analysis process to a real-world business problem and communicate actionable insights to stakeholders.**
+**This case study demonstrates my ability to use data analysis to answer real business questions and communicate findings clearly.**
