@@ -1,11 +1,11 @@
 # Cyclistic Bike-Share Case Study: How Does a Bike-Share Navigate Speedy Success?
 
 ## Introduction
-This project is part of my independent learning for the Google Data Analytics Capstone on Coursera. In this case study, I take on the role of a junior data analyst on the Cyclistic marketing analytics team. The goal is to analyze historical bike trip data to understand how annual members and casual riders use Cyclistic bikes differently, and to support the development of marketing strategies to convert casual riders into annual members.
+  This project is part of my independent learning for the Google Data Analytics Capstone on Coursera. In this case study, I take on the role of a junior data analyst on the Cyclistic marketing analytics team. The goal is to analyze historical bike trip data to understand how annual members and casual riders use Cyclistic bikes differently, and to support the development of marketing strategies to convert casual riders into annual members.
 ---
 
 ## Business Task
-Cyclistic’s director of marketing has identified the need to maximize the number of annual memberships for future growth. My task is to analyze usage differences between annual members and casual riders and provide data-driven recommendations to help convert casual riders into annual members.
+  Cyclistic’s director of marketing has identified the need to maximize the number of annual memberships for future growth. My task is to analyze usage differences between annual members and casual riders and provide data-driven recommendations to help convert casual riders into annual members.
 ---
 
 ## Key Questions
