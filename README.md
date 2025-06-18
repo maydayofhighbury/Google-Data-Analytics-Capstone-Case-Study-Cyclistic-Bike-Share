@@ -11,7 +11,7 @@ This repository documents my independent project for the Google Data Analytics C
 ---
 
 ## Data Source
-- Publicly available trip data provided for the Google Data Analytics Capstone (CSV format, 12 months).
+- [Publicly available trip data](https://divvy-tripdata.s3.amazonaws.com/index.html) provided for the Google Data Analytics Capstone (CSV format, 12 months).
 - Key columns: `ride_id`, `rideable_type`, `started_at`, `ended_at`, `start_station_name`, `end_station_name`, `member_casual`, etc.
 ---
 
