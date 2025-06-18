@@ -11,7 +11,7 @@ Throughout the case study, I follow the six steps of the data analysis process:
 5. Share: Visualize and communicate findings.
 6. Act: Make recommendations based on the analysis.
 
-This case study simulates real-world tasks and collaboration within a marketing analytics team. It includes guiding questions and key tasks to ensure a structured approach. The final deliverable is a portfolio-ready project that demonstrates my ability to apply data analysis skills to solve business problems—an excellent addition to showcase to potential employers.
+This case study simulates real-world tasks and collaboration within a marketing analytics team. It includes guiding questions and key tasks to ensure a structured approach. The final deliverable is a portfolio-ready project that demonstrates my ability to apply data analysis skills to solve business problems - an excellent addition to showcase to potential employers.
 
 All project materials, including data cleaning steps, analysis, visualizations, and recommendations, are documented in this repository.
 
@@ -35,8 +35,10 @@ All project materials, including data cleaning steps, analysis, visualizations, 
 ## Business Task
 Cyclistic’s marketing team wants to better understand how annual members and casual riders use their bike-share service. The main goal is to identify differences in usage patterns and develop actionable recommendations to convert casual riders into annual members.
 
-**Key Question:**  
-How do annual members and casual riders use Cyclistic bikes differently?
+**Key Questions:**  
+1. How do annual members and casual riders use Cyclistic bikes differently?
+2. Why would casual riders buy Cyclistic annual memberships?
+3. How can Cyclistic use digital media to influence casual riders to become members?
 
 ---
 
@@ -47,55 +49,61 @@ How do annual members and casual riders use Cyclistic bikes differently?
 ---
 
 ## Data Analysis Process
-
 ### 1. Ask
-- **Business Task:** Identify usage patterns to help convert casual riders to annual members.
-- **Stakeholders:** Cyclistic Marketing Director, Analytics Team, Executive Team.
+- Defined the three business questions above in collaboration with the Cyclistic marketing team.
 
 ### 2. Prepare
-- Downloaded 12 months of trip data.
-- Reviewed data structure and key columns.
-- Checked for data quality issues such as missing values and inconsistencies.
+- Downloaded and reviewed 12 months of trip data.
+- Assessed data quality, structure, and relevance for the analysis.
 
 ### 3. Process
-- Removed duplicate records and rows with missing critical information.
-- Standardized column formats (e.g., dates and member types).
-- Created new columns for ride duration and day of the week.
+- Cleaned the data by removing duplicates and rows with missing values.
+- Standardized date and member type formats.
+- Calculated ride duration and extracted day of week for each trip.
 
 ### 4. Analyze
-- Used pivot tables and charts (in Excel/Google Sheets) to compare:
-    - Number of rides by member type
-    - Average ride duration by member type
-    - Most popular days of the week for each group
-    - Most common start and end stations
-- Identified key differences in usage patterns between annual members and casual riders.
+- Used pivot tables and charts to compare ride frequency, duration, and timing by user type.
+- Identified behavioral trends and patterns.
+- Researched potential motivators for membership.
+- Explored digital marketing strategies relevant to Cyclistic’s goals.
 
 ### 5. Share
 - Created visualizations (bar charts, line graphs, pie charts) to illustrate findings.
-- Summarized insights in this README and included sample charts in the `/visuals` folder.
+- Summarized insights and recommendations in this README.
 
 ### 6. Act
-- Developed recommendations for marketing strategies to encourage casual riders to become annual members.
-- Documented the entire process, findings, and recommendations in this repository.
+- Developed actionable recommendations for Cyclistic’s marketing team, focusing on digital media engagement.
 
 ---
 
-## Key Findings
-- **Casual riders** tend to use bikes more on weekends and for longer durations.
-- **Annual members** are more likely to use bikes on weekdays and for shorter, more frequent trips.
-- Certain stations are more popular among casual riders, suggesting opportunities for targeted promotions.
+## Findings & Answers
 
----
+### 1. Usage Patterns
 
-## Recommendations
-- **Targeted Marketing:** Promote membership benefits at stations and times popular with casual riders.
-- **Special Offers:** Introduce weekend or event-based membership discounts.
-- **Enhanced Communication:** Use email or app notifications to highlight savings and perks of annual membership.
+**How do annual members and casual riders use Cyclistic bikes differently?**
+- **Annual members** typically use bikes for short, frequent trips during weekdays, suggesting commuting or routine travel.
+- **Casual riders** are more likely to take longer rides on weekends and holidays, indicating recreational or leisure usage.
+- Certain stations and times are more popular with casual riders, highlighting opportunities for targeted outreach.
+
+### 2. Motivations for Membership
+**Why would casual riders buy Cyclistic annual memberships?**
+- **Cost savings:** Frequent riders can save money with a membership versus paying per ride.
+- **Convenience:** Members enjoy streamlined access and exclusive perks.
+- **Promotions:** Limited-time discounts or bundled offers can incentivize sign-ups.
+- **Personalization:** Highlighting how membership fits individual usage patterns (e.g., for weekend explorers or daily commuters).
+
+### 3. Digital Media Strategies
+**How can Cyclistic use digital media to influence casual riders to become members?**
+- **Targeted Ads:** Use social media and search ads focused on popular casual rider locations and times.
+- **Personalized Emails:** Send follow-up emails to casual riders with personalized usage stats and membership offers.
+- **Content Marketing:** Share stories, tips, and benefits of membership on the Cyclistic blog and social platforms.
+- **Referral Programs:** Encourage current members to invite friends with digital referral bonuses.
+- **App Notifications:** Use in-app messages to promote membership benefits right after a casual ride.
 
 ---
 
 ## Tools Used
-- Microsoft Excel / Google Sheets (data cleaning, analysis, and visualization)
+- Microsoft Excel / Google Sheets (data cleaning, analysis, visualization)
 - Tableau Public / Google Data Studio (optional, for advanced visualizations)
 - Markdown (for documentation)
 
@@ -116,11 +124,10 @@ Cyclistic-Case-Study/
 ---
 
 ## How to Use This Repository
-1. **Explore the data** in the `/data` folder.
-2. **Review the analysis and visuals** in the `/visuals` folder.
-3. **Read this README** for a summary of the process, findings, and recommendations.
-4. **Use or adapt this case study** as a portfolio piece for your own job search.
-
+1. Review the data in the `/data` folder.
+2. Explore the analysis and visuals in the `/visuals` folder.
+3. Read this README for a summary of the process, findings, and recommendations.
+4. Use or adapt this case study as a portfolio piece for your own job search.
 ---
 
 ## Acknowledgments
